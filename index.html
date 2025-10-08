@@ -10,15 +10,11 @@
 
   <body>
     <!--Cabeçalho e navegação-->
-    <reader>
-      <!--Nome da ONG-->
-      <div>
-        <svg>...</svg>
-        <span>Patinhas Carentes</span>
-      </div>
-
-      <!-- Menu de Navegação-->
-      <nav id="nav">
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">ONG Salve Vidas</a>
+            <nav class="main-nav">
+      
         <ul id="nav-pg">
           <li><a href="index.html">Início</a></li>
           <li><a href="sobre.html">Sobre</a></li>
@@ -31,6 +27,7 @@
           <li><a href="blog.html">Notícias</a></li>
         </ul>
       </nav>
+        </div>
     </reader>
     <main>
       <!--imagem principal-->
@@ -81,26 +78,26 @@
       <!--Formato "Antes e Depois": Coloque a foto de um animal quando foi resgatado (magro, assustado) ao lado de uma foto dele hoje (saudável, feliz no novo lar).
 
 Depoimento Curto: -->
-      <section id="depoimentos">
-        <h2>Finais Felizes</h2>
-        <article>
-          <h3>Francisco da Silva</h3>
-          <p>
-            <img src="img/dopo1.avif" width="200px" height="200px" alt="gata antes e depois">
-            Adotei um gatinho de 6 meses foi encantador e inesquecivel esse dia.
-          </p>
-        </article>
-        <article>
-          <h3>Tavila Silva</h3>
-          <img src="img/depo4.jpg" width="200px" height="200px" alt="gata antes e depois">
-          <a
-            >Eu adotei a Mel foi um amor a primeira vista rs. meu
-            xodó.</a
-          >
-        </article>
-        <button>Ver todos os Depoimentos</button>
-      </section>
-      <section>
+     <section id="depoimentos">
+  <h2>Finais Felizes</h2>
+  <div class="depoimentos-grid">
+
+    <article class="depoimento-card">
+      <img src="img/dopo1.avif" alt="Foto do gato adotado por Francisco">
+      <h3>Francisco da Silva</h3>
+      <p>"Adotei um gatinho de 6 meses, foi encantador e inesquecível esse dia."</p>
+    </article>
+
+    <article class="depoimento-card">
+      <img src="img/depo4.jpg" alt="Foto da gata Mel, adotada por Tavila">
+      <h3>Tavila Silva</h3>
+      <p>"Eu adotei a Mel, foi um amor à primeira vista rs. Meu xodó."</p>
+    </article>
+    
+    </div>
+  <button href="adote.html" class="btn-ver-adote">Adote tambem</button>
+  
+</section>
         <!--Seção 3: Encontre seu Novo Amigo (Destaque para Adoção)
         Esta é a vitrine do seu trabalho. As pessoas querem ver os animais!
         Título: Um Recomeço Cheio de Amor te Espera
@@ -123,7 +120,7 @@ Depoimento Curto: -->
         Endereço Fictício: "Sede social em [nome da sua cidade]".
         Redes Sociais: Ícones bem visíveis para Instagram, Facebook, etc.
         Links Úteis: Quem Somos | Adoção | Doação | Voluntariado | Contato.
-        CNPJ Fictício: (Para dar mais credibilidade ao projeto).-->
+        CNPJ Fictício: (Para dar mais credibilidade ao projeto).--> 
         <footer>
         <p>Patinhas Carentes &copy; 2025</p>
         <p>Contato: (xx) xxxx-xxxx </p>
