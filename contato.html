@@ -3,10 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contatos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<h1>Contato</h1>
 <body>
+    
+<header>
+        <h1>Fale Conosco</h1>
+        <p>Adoraríamos ouvir de você. Entre em contato, tire suas dúvidas ou venha nos fazer uma visita!</p>
+</header>
+    <main>
+        <section id="contato" class="secao-contato">
+            <div class="container">
+                <div class="contact-wrapper">
+
+                    <div class="form-contato-area">
+                        <h3>Envie uma Mensagem</h3>
+                        <form action="/enviar-contato" method="POST" class="form-contato">
+                            <div class="form-group">
+                                <label for="nome">Seu Nome</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Seu E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <select id="assunto" name="assunto">
+                                    <option value="geral">Dúvida Geral</option>
+                                    <option value="adocao">Interesse em Adoção</option>
+                                    <option value="doacao">Doações</option>
+                                    <option value="denucia">Denucia</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Sua Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit-contato">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="contato-detalhe-area">
+                        <h3>Nossas Informações</h3>
+                        <div class="info-contato">
+                            <p><strong>Endereço:</strong><br>Rua Feliz, 000 <br>Bairro Acolhedor, São Paulo - SP<br>CEP: 01234-567</p>
+                            <p><strong>Telefone:</strong><br><a href="#">(XX) XXXXX-XXXX</a> (WhatsApp)</p>
+                            <p><strong>E-mail Principal:</strong><br><a href="#">patilhascarente@gmail.br</a></p>
+                            <p><strong>Horário de Funcionamento:</strong><br>Segunda a Sábado, das 9h às 17h</p>
+                            <p><strong>CNPJ:</strong><br>10.000.000/0001-00</p>
+                        </div>
+                        
+                        <h3>Siga-nos</h3>
+                        <div class="links-redes-sociais">
+                            <a href="#" title="Facebook">Facebook</a>
+                            <a href="#" title="Instagram">Instagram</a>
+                            <a href="#" title="Twitter">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mapa-contato">
+                    <h3>Nossa Localização</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.145833215235!2d-46.6565313855428!3d-23.56332328468208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x2025b953d6e5d8a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1677353916854!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <p>Patinhas Carentes &copy; 2025</p>
         <p>Contato: (xx) xxxx-xxxx </p>
