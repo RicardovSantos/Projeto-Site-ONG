@@ -7,26 +7,85 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--cabeçalho da pg adote-->
     <header>
-        <h2>Adote </h2>
-            <p>"Abra seu coração e seu lar.
-             Dê uma família para um de nossos resgatados e
+        <h1>Adote um Amigo</h1>
+            <p>"Abra seu coração e seu lar.</p>
+             <p>Dê uma família para um de nossos resgatados e
              ganhe um amigo para a vida toda.</p>
     </header>
-    <Section id="adote">
-        <h2>Escolha seu Pet</h2>
-        <ul>
-            <li><img src="img/adot1.png" alt="Chocolate Femea"></li>
-            <p><strong>Chocolate: </strong> Femea de cor preta, porte médio <strong>Idade: </strong> 2 meses</p>
-            <li><img src="img/adot2.png" alt="Popcorn Macho"></li>
-            <p><strong>Popcorn: </strong>Macho de cor caramelo, porte médio <strong>Idade:</strong> 2 anos</p>
-            <li><img src="img/adot3.png" alt="Melissa Femea"></li>
-            <p><strong>Melissa: </strong>Femea, porte pequeno, <strong>Idade: </strong>4 meses</p>
-        </ul>
+    <!--Main para a parte principal-->
+<main>
+    <!--Seção para a galeria de animais-->
+    <Section id="galeria-animais">
+        <h2>Conheça nossos amiguinhos para adoção</h2>
+        <!--filtro para (caes, gatos e todos)-->
+            <div class="filtros">
+                <button data-filter="todos">Todos</button>
+                <button data-filter="caes">Cães</button>
+                <button data-filter="gatos">Gatos</button>
+            </div>
+            <div class="galeria-grid">
+                <!--no gride um article para cada animal-->
+                <article class="card-animal" data-category="caes">
+                    <img src="img/adot1.png" alt="Chocolate Femea">
+                    <div class="info-animal">
+                        <h3>Chocolate</h3>
+                        <ul>
+                            <li><strong>Idade: </strong>2 meses</li>
+                            <li><strong>Porte: </strong>Pequeno</li>
+                            <li><strong>Gênero: </strong>Femea</li>
+                            <li><strong>Temperamento: </strong>Dócil e brincalhona</li>
+                        </ul>
+                         <p>Chocolate foi resgatada das ruas da grande São Pauloe agora espera um lar cheio de amor e bolinhas para brincar!</p>
+                        <button class="botao-adotar">Adotar</button>
+                    </div>
+                    <!--segundo animal-->
+                </article>
+                <article class="card-animal" data-category="caes">
+                    <img src="img/adot2.png" alt="Popcorn Macho">
+                    <div class="info-animal">
+                        <h3>Popcorn</h3>
+                        <ul>
+                            <li><strong>Idade: </strong>2 anos</li>
+                            <li><strong>Porte: </strong>Médio</li>
+                            <li><strong>Gênero: </strong>Macho</li>
+                            <li><strong>Temperamento: </strong>Calmo e amigável</li>
+                        </ul>
+                         <p>Popcorn é um cãozinho caramelo que foi abandonado na Av. Paulista. Ele adora carinho e está pronto para ser seu fiel companheiro.</p>
+                        <button class="botao-adotar">Adotar</button>
+                    </div>
+                    <!--terceiro animal-->
+                </article>
+                <article class="card-animal" data-category="gatos">
+                    <img src="img/adot3.png" alt="Melissa gata Femea">
+                    <div class="info-animal">
+                        <h3>Melissa</h3>
+                        <ul>
+                            <li><strong>Idade: </strong>4 meses</li>
+                            <li><strong>Porte: </strong> pequeno</li>
+                            <li><strong>Gênero: </strong>femea</li>
+                            <li><strong>Temperamento: </strong>muito calma e carinhosa</li>
+                        </ul>
+                        <p>Melissa foi resgatada em uma caixa na zona Leste de São Paulo, ela é muito carinhosa e aguarda um lar para distribuir amor.</p>
+                        <button class="botao-adotar">Adotar</button>
+                    </div>
+                </article>
+           </div>
+        </Section>
+</main>
 
-    </Section>
-
-<!-- ADOTE: (Ícone de uma casa) "Abra seu coração e seu lar. Dê uma família para um de nossos resgatados e ganhe um amigo para a vida toda."-->
+    <footer>
+        <p>Patinhas Carentes &copy; 2025</p>
+        <p>Contato: (xx) xxxx-xxxx </p>
+        <p>Email: patinhascarentes@gmail.com </p>
+        <p>Endereço: Rua Feliz, 000 - São Paulo, SP</p>
+        <p>Redes Sociais: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+       
+    </footer>
 
 </body>
 </html>
