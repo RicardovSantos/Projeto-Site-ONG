@@ -1,0 +1,361 @@
+/* --- GERAL E VARIÁVEIS DE COR --- */
+:root {
+  --cor-primaria: #e89f71; /* Um tom de laranja/pêssego acolhedor */
+  --cor-secundaria: #66545e; /* Um tom escuro e sóbrio para contraste */
+  --cor-fundo: #fdfaf7;
+  --cor-texto: #333333;
+  --cor-branca: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--cor-secundaria);
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* --- CABEÇALHO E NAVEGAÇÃO --- */
+.main-header {
+  background-color: var(--cor-branca);
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  position: sticky; /* Mantém no topo ao rolar */
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between; /* Logo na esquerda, nav na direita */
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--cor-primaria);
+}
+
+.main-nav ul {
+  display: flex; /* Coloca os itens da lista em linha */
+  list-style: none;
+  gap: 25px; /* Espaço entre os links */
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: var(--cor-primaria);
+}
+
+/* --- SEÇÃO PRINCIPAL (HERO) --- */
+.imagem-principal {
+  position: relative; /* contexto para posicionar os elementos filhos */
+  height: 80vh; 
+  display: flex; /*Flexbox para centralizar */
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  color: white; 
+  overflow: hidden; /* Garante que nada vaze da seção */
+}
+
+/* A imagem que servirá de fundo */
+.imagem-principal img {
+  position: absolute; /* Posiciona a imagem em relação ao pai (.imagem-principal) */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorcer */
+  z-index: 1; /* Coloca a imagem na camada de trás */
+}
+
+/* Camada escura para dar contraste e facilitar a leitura do texto */
+.imagem-principal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 2; /* Fica entre a imagem e o texto */
+}
+
+/* container do texto e botões */
+.hero-content {
+  position: relative; /* Garante que o conteúdo fique visível */
+  z-index: 3; /* Camada mais à frente de todas */
+  padding: 20px;
+  max-width: 800px; /* Evita que o texto fique muito largo em telas grandes */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.botoes-hero {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os botões */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* --- BOTÕES --- */
+button,
+a.btn-ver-adote,
+.btn-saiba-mais {
+  background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+a.btn-ver-adote:hover,
+.btn-saiba-mais:hover {
+  background-color: #d68f63;
+  transform: translateY(-2px);
+}
+
+/* --- SEÇÃO DE IMPACTO (NÚMEROS) --- */
+.impacto {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.impacto ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.impacto li {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* --- QUEM SOMOS E MVV (Missão, Visão, Valores) --- */
+.quem-somos,
+.mvv-icon,
+h3,
+.mvv-section {
+  text-align: center;
+}
+.mvv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  text-align: left;
+}
+.mvv-card {
+  background-color: var(--cor-branca);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.mvv-card ul {
+  list-style-position: inside;
+}
+/* ADICIONE ESTE BLOCO DE CÓDIGO NOVO */
+.mvv-icon {
+  font-size: 3rem; /* Tamanho do ícone */
+  color: var(--cor-primaria); /* Usa a cor laranja do seu tema */
+  margin-bottom: 15px; /* Espaço entre o ícone e o título (Missão, etc) */
+}
+/* FIM DO BLOCO NOVO */
+
+.mvv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  text-align: left;
+}
+.mvv-card {
+  background-color: var(--cor-branca);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.mvv-card ul {
+  list-style-position: inside;
+}
+
+/* --- EQUIPE --- */
+.equipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.equipe-menbros-card {
+  text-align: center;
+}
+.equipe-menbros-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.equipe-menbros-card .funcao {
+  color: var(--cor-primaria);
+  font-weight: bold;
+}
+#historia {
+    margin: 40px;
+    text-align: left ;
+}
+
+/* --- PROJETOS E DEPOIMENTOS (REQUISITO PRINCIPAL) --- */
+#Projetos-cards,
+#depoimentos {
+  text-align: center;
+}
+.projetos-grid,
+.depoimentos-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ); /* Layout responsivo de cards */
+  gap: 30px; /* Espaço entre os cards */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Estilo individual do card */
+#Projetos-cards article,
+.depoimento-card {
+  background-color: var(--cor-branca);
+  padding: 20px;
+  border-radius: 15px; /* Bordas pouco arredondadas */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Projetos-cards article:hover,
+.depoimento-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.depoimento-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px; /* Arredondamento na foto */
+  margin-bottom: 15px;
+}
+
+.depoimento-card p {
+  font-style: italic;
+  color: #555;
+}
+
+/* --- RODAPÉ --- */
+footer {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* --- AJUSTES PARA TELAS MENORES (RESPONSIVIDADE) --- */
+@media (max-width: 768px) {
+  .main-header .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .imagem-principal h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
