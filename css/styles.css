@@ -216,13 +216,12 @@ h3,
 .mvv-card ul {
   list-style-position: inside;
 }
-/* ADICIONE ESTE BLOCO DE CÓDIGO NOVO */
+
 .mvv-icon {
   font-size: 3rem; /* Tamanho do ícone */
   color: var(--cor-primaria); /* Usa a cor laranja do seu tema */
   margin-bottom: 15px; /* Espaço entre o ícone e o título (Missão, etc) */
 }
-/* FIM DO BLOCO NOVO */
 
 .mvv-grid {
   display: grid;
@@ -271,6 +270,17 @@ h3,
 #Projetos-cards,
 #depoimentos {
   text-align: center;
+}
+.img-projetos{
+position: relative;
+display: flex;
+overflow: hidden;
+object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorcer */
+top: 0;
+left: 0;
+height: 200px;
+width: 100%;
+
 }
 .projetos-grid,
 .depoimentos-grid {
