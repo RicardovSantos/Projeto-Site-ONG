@@ -469,142 +469,7 @@ main > .container p {
 .botao-adotar:hover {
   background-color: #52434a;
 }
-/* --- ESTILOS PARA A PÁGINA DE VOLUNTÁRIO --- */
-/* --- ESTILOS PARA A PÁGINA DE VOLUNTÁRIO --- */
 
-/* Estilo da seção do formulário */
-.form-section {
-  background-color: #f9f9f9; /* Um fundo levemente cinza para destacar o formulário */
-  padding: 60px 0;
-}
-
-.form-section h2,
-.form-section > .container > p {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* Caixa do formulário */
-.voluntario-form {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 40px;
-  background-color: #ffffff; /* Fundo branco para o formulário */
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  border: 1px solid #eee;
-}
-
-.voluntario-form h4 {
-  margin-top: 20px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid var(--cor-primaria);
-  padding-bottom: 8px;
-  font-size: 1.3rem;
-  color: var(--cor-secundaria);
-}
-
-/* Organiza os campos do formulário em um grid responsivo */
-.form-dados-pessoais,
-.form-dados-endereco {
-  display: grid;
-  /* Cria 2 colunas em telas maiores, e 1 em telas menores */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px 25px; /* Espaçamento vertical e horizontal entre os campos */
-}
-
-/* Estilo dos campos (input e textarea) */
-.voluntario-form input,
-.voluntario-form textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-family: inherit; /* Usa a mesma fonte do site */
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-/* Efeito ao clicar no campo */
-.voluntario-form input:focus,
-.voluntario-form textarea:focus {
-  outline: none;
-  border-color: var(--cor-primaria);
-  box-shadow: 0 0 8px rgba(232, 159, 113, 0.5);
-}
-
-/* Estilo dos rótulos (labels) */
-.voluntario-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: var(--cor-secundaria);
-  text-align: start;
-}
-
-.form-group {
-  margin-top: 30px;
-}
-
-/* Estilo do botão de envio */
-.voluntario-form button[type="submit"] {
-  width: 100%;
-  margin-top: 30px;
-  padding: 15px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  background-color: var(--cor-secundaria);
-  border: none;
-  border-radius: 8px;
-  color: var(--cor-branca);
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.voluntario-form button[type="submit"]:hover {
-  background-color: #52434a;
-  transform: translateY(-2px);
-}
-
-/* --- Estilo para a lista de atividades --- */
-.section-atividades {
-  padding: 60px 0;
-}
-
-#atividades-atuar {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.lista-atividades {
-  max-width: 800px;
-  margin: 0 auto;
-  list-style: none;
-  padding-left: 0;
-  display: grid;
-  gap: 20px;
-}
-
-.lista-atividades > li {
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  border-left: 5px solid var(--cor-primaria);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.lista-atividades strong {
-  font-size: 1.4rem;
-  color: var(--cor-secundaria);
-}
-
-.lista-atividades ul {
-  list-style: disc;
-  padding-left: 25px;
-  margin-top: 15px;
-  color: #555;
-  line-height: 1.8;
-}
 
 /* Estilo para o Rodapé (Footer) que você atualizou */
 footer {
@@ -769,4 +634,82 @@ footer {
     height: 30px;
 }
 
+/*  pagina Cadastro --------------------------------*/
+/* Agrupador de label e input */
+.form-group {
+    margin-bottom: 15px;
+}
 
+/* Estilo dos rótulos (labels) */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilo dos campos de entrada (inputs) */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding não afete a largura final */
+    transition: border-color 0.3s ease;
+
+}
+
+/* Estilo para campos de input quando estão inválidos */
+.form-group input:invalid {
+    border-color: #884942;
+}
+
+/* Estilo para campos de input quando estão válidos (opcional, mas bom para feedback) */
+.form-group input:valid {
+    border-color: #2ecc71;
+}
+
+/* Estilo do botão de envio */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color:#e89f71;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Efeito hover para o botão de envio */
+.submit-btn:hover {
+    background-color: #d69c77;
+}
+
+/* Estilo para os fieldsets */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as legendas dos fieldsets */
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #6e3917;
+}
+/* Container principal do formulário */
+.container-cadastro {
+    display: block;
+    background-color: #fff;
+    padding: 40px 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+}
