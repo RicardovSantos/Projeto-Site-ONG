@@ -149,8 +149,8 @@ h2 {
 
 /* --- BOTÕES --- */
 button,
-a.btn-ver-adote,
-.btn-saiba-mais {
+a.btn,
+.btn {
   background-color: var(--cor-primaria);
   color: var(--cor-branca);
   padding: 12px 28px;
@@ -165,8 +165,8 @@ a.btn-ver-adote,
 }
 
 button:hover,
-a.btn-ver-adote:hover,
-.btn-saiba-mais:hover {
+a.btn:hover,
+.btn:hover {
   background-color: #d68f63;
   transform: translateY(-2px);
 }
