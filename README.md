@@ -30,8 +30,8 @@ Resgatar cães e gatos em situação de abandono e maus-tratos na cidade de São
 Ser uma organização referência no combate ao abandono de animais em nossa cidade, contribuindo para uma comunidade mais consciente, onde todos os animais de estimação sejam respeitados, cuidados e tenham um lar amoroso.
 
 ### Valores
-* **❤️ Respeito à Vida:** Toda vida animal é valiosa e merece ser protegida.
-* ** compassionate Compaixão:** Agir sempre com empatia e carinho em relação aos animais e às pessoas.
+* **❤️ Respeito à Vida:** Toda vida animal é valiosa e merece ser protegida
+ Agir sempre com empatia e carinho em relação aos animais e às pessoas.
 * **🛡️ Responsabilidade:** Comprometer-se com a saúde e o bem-estar de cada animal resgatado, desde o acolhimento até a adoção.
 * **👥 Comunidade:** Trabalhar em conjunto com a população local, voluntários e parceiros para criar uma rede de apoio forte.
 * **🔎 Transparência:** Prestar contas de todas as doações recebidas e dos resultados alcançados.
