@@ -1,4 +1,4 @@
-/* --- GERAL E VARIÁVEIS DE COR --- */
+/* ---------------- Geral e Variaveis de Cor------------- --- */
 :root {
   --cor-primaria: #e89f71; /* Um tom de laranja/pêssego acolhedor */
   --cor-secundaria: #66545e; /* Um tom escuro e sóbrio para contraste */
@@ -6,45 +6,38 @@
   --cor-texto: #333333;
   --cor-branca: #ffffff;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-  line-height: 1.6;
-  
+  line-height: 1.6;  
 }
-
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 section {
   padding: 60px 0;
 }
-
 h1,
 h2,
 h3 {
   color: var(--cor-secundaria);
   margin-bottom: 20px;
 }
-
 h2 {
   text-align: center;
   font-size: 2.5rem;
 }
 
-/* --- CABEÇALHO E NAVEGAÇÃO --- */
+/* ------------------ Cabeçalho   &   Navegação ------------------------------ */
 .main-header {
   background-color: var(--cor-branca);
   padding: 15px 0;
@@ -54,21 +47,16 @@ h2 {
   z-index: 1000;
   width: 100%;
 }
-
 .main-header .container {
   display: flex;
   justify-content: space-between; /* Logo na esquerda, nav na direita */
   align-items: center;
 }
-
-
-
 .main-nav ul {
   display: flex; /* Coloca os itens da lista em linha */
   list-style: none;
   gap: 25px; /* Espaço entre os links */
 }
-
 .main-nav a {
   text-decoration: none;
   color: var(--cor-secundaria);
@@ -80,7 +68,7 @@ h2 {
   color: var(--cor-primaria);
 }
 
-/* --- SEÇÃO PRINCIPAL (HERO) --- */
+/* ---------------- Seção Principal --(Hero) ------------------ */
 .imagem-principal,
 #inicio {
   position: relative; /* contexto para posicionar os elementos filhos */
@@ -174,7 +162,7 @@ a.btn:hover,
   transform: translateY(-2px);
 }
 
-/* --- SEÇÃO DE IMPACTO (NÚMEROS) --- */
+/* ----------------------- Seção de Impacto  ------------------- --- */
 .impacto {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
@@ -196,7 +184,7 @@ a.btn:hover,
   font-weight: 600;
 }
 
-/* --- QUEM SOMOS E MVV (Missão, Visão, Valores) --- */
+/* --- ---------QUEM SOMOS E MVV (Missão, Visão, Valores) --- */
 .quem-somos,
 .mvv-icon,
 h3,
@@ -243,7 +231,7 @@ h3,
   list-style-position: inside;
 }
 
-/* --- EQUIPE --- */
+/* ------------------------- EQUIPE ------------------------------------ */
 .equipe-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -269,10 +257,15 @@ h3,
   text-align: left;
 }
 
-/* --- PROJETOS E DEPOIMENTOS (REQUISITO PRINCIPAL) --- */
+/* --- PROJETOS E DEPOIMENTOS ---------------- ----------------------------- */
 #Projetos-cards,
 #depoimentos {
   text-align: center;
+}
+.projetos-descricao,
+.projetos-lista{
+  text-align: start;
+  padding-left: 10px;
 }
 .img-projetos{
 position: relative;
@@ -326,7 +319,7 @@ width: 100%;
   color: #555;
 }
 
-/* --- RODAPÉ --- */
+/* --- RODAPÉ ---------------------------------------------------------------- */
 footer {
   background-color: var(--cor-secundaria);
   color: var(--cor-branca);
@@ -368,7 +361,7 @@ footer p {
     font-size: 2rem;
   }
 }
-/* --- ESTILOS PARA A PÁGINA DE ADOÇÃO --- */
+/* --- ESTILOS PARA A PÁGINA DE ADOÇÃO --------------------------------------------------------------- */
 
 /* Centraliza o título da página */
 main h2,
@@ -480,11 +473,11 @@ footer {
 footer p {
   margin-bottom: 15px;
 }
-/*pagina doaçoes*/
+/*pagina   Doaçoes----------------------------------------------------------------------*/
 
 /* --- seção hero --- */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://placehold.co/1200x500/A8A8A8/FFF?text=Foto+de+Cães+e+Gatos');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -617,24 +610,7 @@ footer p {
     color: #3498db;
 }
 
-/* --- RODAPÉ --- */
-footer {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.social-links a {
-    margin: 0 10px;
-}
-
-.social-links img {
-    width: 30px;
-    height: 30px;
-}
-
-/*  pagina Cadastro --------------------------------*/
+/*  pagina Cadastro -----------------------------------------------------*/
 /* Agrupador de label e input */
 .form-group {
     margin-bottom: 15px;
