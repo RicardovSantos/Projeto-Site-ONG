@@ -1,5 +1,5 @@
 # 🐾 ONG Patinhas Carentes
-
+![Logo da Patinhas Carentes](img/logo.png)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
@@ -49,6 +49,8 @@ A plataforma contará com as seguintes funcionalidades:
 
 
 ---
+## Estrutura e WireFrame
+![estruturas, mapa do site, WireFrame](wireframe/Wireframe-ONG.jpg)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -67,18 +69,11 @@ Este projeto foi construído utilizando tecnologias modernas para garantir uma e
 
 Siga os passos abaixo para configurar e executar o projeto em seu ambiente local.
 
-**Pré-requisitos:**
+**opção de instalação:**
 * **Git**
-* **Node.js** (versão 18 ou superior)
-
 
 ```bash
 # 1. Clone o repositório
 git clone [https://github.com/seu-usuario/ong-patinhas-carentes.git](https://github.com/seu-usuario/ong-patinhas-carentes.git)
 
-# 2. Navegue até o diretório do projeto
-cd ong-patinhas-carentes
 
-# 3. Instale as dependências do backend
-cd backend
-npm install
