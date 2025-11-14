@@ -1,5 +1,5 @@
 # 🐾 ONG Patinhas Carentes
-![Logo da Patinhas Carentes](img/logo.webp)
+![Logo da Patinhas Carentes](img/logo.png)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
@@ -67,6 +67,8 @@ Este projeto foi construído utilizando tecnologias modernas para garantir uma e
 
 
 ---
+Publica
+https://ricardovsantos.github.io/Projeto-Site-ONG
 
 ## 🔧 Como Instalar e Executar
 
