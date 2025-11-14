@@ -10,9 +10,11 @@ Este é o repositório oficial da plataforma web da **ONG Patinhas Carentes**, u
 ## 📜 Tabela de Conteúdos
 
 * [Sobre o Projeto](#-sobre-o-projeto)
+
     * [Missão](#missão)
     * [Visão](#visão)
     * [Valores](#valores)
+
 * [✨ Funcionalidades](#-funcionalidades)
 * [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [🔧 Como Instalar e Executar](#-como-instalar-e-executar)
@@ -59,8 +61,9 @@ Este projeto foi construído utilizando tecnologias modernas para garantir uma e
 | Ferramenta | Descrição |
 | :--- | :--- |
 
-| **`React.js`** | Biblioteca JavaScript para construir a interface de usuário (frontend). |
-| **`Vercel/Netlify`** | Plataformas para hospedagem do frontend. |
+| **`HTML5/CSS3/JS`** | Linguagens utilizadas. |
+
+| **`Netlify`** | Plataformas para hospedagem do frontend. |
 
 
 ---
@@ -74,6 +77,6 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente local
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/seu-usuario/ong-patinhas-carentes.git](https://github.com/seu-usuario/ong-patinhas-carentes.git)
+git clone [https://github.com/seu-usuario/ong-patinhas-carentes.git]
 
 
