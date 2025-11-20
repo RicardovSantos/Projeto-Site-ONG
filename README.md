@@ -50,7 +50,7 @@ A plataforma contará com as seguintes funcionalidades:
 
 ---
 ## Estrutura e WireFrame
-![estruturas, mapa do site, WireFrame](wireframe/Wireframe-ONG.jpg)
+![estruturas, mapa do site, WireFrame](WireFrame/Wireframe-ONG.jpg)
 
 ## 🚀 Tecnologias Utilizadas
 <img 
