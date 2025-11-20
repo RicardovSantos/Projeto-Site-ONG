@@ -53,7 +53,30 @@ A plataforma contará com as seguintes funcionalidades:
 ![estruturas, mapa do site, WireFrame](wireframe/Wireframe-ONG.jpg)
 
 ## 🚀 Tecnologias Utilizadas
-
+<img 
+    align="left" 
+    alt="HTML"
+    title="HTML" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="JavaScript" 
+    title="JavaScript"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+/>
 Este projeto foi construído utilizando tecnologias modernas para garantir uma experiência rápida, segura e agradável para os usuários.
 
 | Ferramenta | Descrição |
