@@ -11,21 +11,10 @@
 Este é o repositório oficial da plataforma web da **ONG Patinhas Carentes**, uma organização sem fins lucrativos situada na cidade de São Paulo, dedicada a resgatar, reabilitar e encontrar lares amorosos para cães e gatos em situação de rua.
 
 ---
-
-## 📜 Tabela de Conteúdos
-
-* [Sobre o Projeto](#-sobre-o-projeto)
-
-    * [Missão](#missão)
-    * [Visão](#visão)
-    * [Valores](#valores)
-
-* [✨ Funcionalidades](#-funcionalidades)
 * [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [🔧 Como Instalar e Executar](#-como-instalar-e-executar)
-* [🤝 Como Contribuir](#-como-contribuir)
 * [📄 Licença](#-licença)
-
+  
 ---
 
 ## 📖 Sobre o Projeto
@@ -53,7 +42,6 @@ A plataforma contará com as seguintes funcionalidades:
 * **📝 Adoção Online:** Formulário de candidatura para adotantes, facilitando o processo inicial de triagem.
 * **💳 Doações:** Sistema integrado para doações pontuais e recorrentes (apadrinhamento) via PagSeguro, Mercado Pago, etc.
 * **🙋‍♂️ Cadastro de Voluntários:** Área para pessoas que desejam ajudar com lar temporário, transporte ou em eventos.
-
 
 ---
 ## Estrutura e WireFrame
