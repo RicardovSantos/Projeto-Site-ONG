@@ -1,3 +1,4 @@
+<div align="center>
 # 🐾 ONG Patinhas Carentes
 <div style="text-align: center">
   <img src="img/logo.png" alt="Logo da Patinhas Carentes" width="150px">
