@@ -55,7 +55,7 @@ A plataforma contará com as seguintes funcionalidades:
 ## 🚀 Tecnologias Utilizadas
 <div style="text-align: center" >
     <img 
-        align="left" 
+        align="center" 
         alt="HTML"
         title="HTML" 
         width="30px" 
@@ -63,7 +63,7 @@ A plataforma contará com as seguintes funcionalidades:
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
     />
     <img 
-        align="left" 
+        align="center" 
         alt="CSS" 
         title="CSS"
         width="30px" 
@@ -71,7 +71,7 @@ A plataforma contará com as seguintes funcionalidades:
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
     />
     <img 
-        align="left" 
+        align="center" 
         alt="JavaScript" 
         title="JavaScript"
         width="30px" 
