@@ -1,10 +1,10 @@
 <div align="center>
 <h1 >🐾 ONG Patinhas Carentes</h1>
+<div style="text-align: center">
+  <img src="img/logo.png" alt="Logo da Patinhas Carentes" width="150px" align="center">
 
-  <img src="img/logo.png" alt="Logo da Patinhas Carentes" width="150px">
-
- ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+</div>
 
 ![fire](https://custom-icon-badges.demolab.com/badge/issue-orange.svg?logo=issue&logoColor=fff)
 ![fire](https://custom-icon-badges.demolab.com/badge/fire-red.svg?logo=fire&logoColor=fff)
